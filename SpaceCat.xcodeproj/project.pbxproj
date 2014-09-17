@@ -16,14 +16,19 @@
 		680218C519C3CD290083213F /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218C419C3CD290083213F /* SCAppDelegate.m */; };
 		680218C819C3CD290083213F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680218C619C3CD290083213F /* Main.storyboard */; };
 		680218CB19C3CD290083213F /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218CA19C3CD290083213F /* SCViewController.m */; };
-		680218CE19C3CD290083213F /* SCMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218CD19C3CD290083213F /* SCMyScene.m */; };
-		680218D019C3CD290083213F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 680218CF19C3CD290083213F /* Spaceship.png */; };
 		680218D219C3CD290083213F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680218D119C3CD290083213F /* Images.xcassets */; };
 		680218D919C3CD290083213F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680218D819C3CD290083213F /* XCTest.framework */; };
 		680218DA19C3CD290083213F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680218B219C3CD290083213F /* Foundation.framework */; };
 		680218DB19C3CD290083213F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680218B619C3CD290083213F /* UIKit.framework */; };
 		680218E319C3CD290083213F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 680218E119C3CD290083213F /* InfoPlist.strings */; };
 		680218E519C3CD290083213F /* SpaceCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218E419C3CD290083213F /* SpaceCatTests.m */; };
+		680218F319C46EFB0083213F /* SCTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218F219C46EFB0083213F /* SCTitleScene.m */; };
+		680218F619C471E00083213F /* SCGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218F519C471E00083213F /* SCGamePlayScene.m */; };
+		680218F819C477170083213F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 680218F719C477170083213F /* Sprites.atlas */; };
+		680218FB19C47F2A0083213F /* SCMachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218FA19C47F2A0083213F /* SCMachineNode.m */; };
+		680218FE19C4889A0083213F /* SCSpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 680218FD19C4889A0083213F /* SCSpaceCatNode.m */; };
+		6802190119C5EFCF0083213F /* SCProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802190019C5EFCF0083213F /* SCProjectileNode.m */; };
+		6877D52A19C9A5ED007FDB22 /* SCSpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877D52919C9A5ED007FDB22 /* SCSpaceDogNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +56,25 @@
 		680218C719C3CD290083213F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		680218C919C3CD290083213F /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
 		680218CA19C3CD290083213F /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
-		680218CC19C3CD290083213F /* SCMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMyScene.h; sourceTree = "<group>"; };
-		680218CD19C3CD290083213F /* SCMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMyScene.m; sourceTree = "<group>"; };
-		680218CF19C3CD290083213F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		680218D119C3CD290083213F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		680218D719C3CD290083213F /* SpaceCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680218D819C3CD290083213F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		680218E019C3CD290083213F /* SpaceCatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceCatTests-Info.plist"; sourceTree = "<group>"; };
 		680218E219C3CD290083213F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		680218E419C3CD290083213F /* SpaceCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceCatTests.m; sourceTree = "<group>"; };
+		680218F119C46EFB0083213F /* SCTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTitleScene.h; sourceTree = "<group>"; };
+		680218F219C46EFB0083213F /* SCTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTitleScene.m; sourceTree = "<group>"; };
+		680218F419C471E00083213F /* SCGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGamePlayScene.h; sourceTree = "<group>"; };
+		680218F519C471E00083213F /* SCGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGamePlayScene.m; sourceTree = "<group>"; };
+		680218F719C477170083213F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		680218F919C47F2A0083213F /* SCMachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMachineNode.h; sourceTree = "<group>"; };
+		680218FA19C47F2A0083213F /* SCMachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMachineNode.m; sourceTree = "<group>"; };
+		680218FC19C4889A0083213F /* SCSpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSpaceCatNode.h; sourceTree = "<group>"; };
+		680218FD19C4889A0083213F /* SCSpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSpaceCatNode.m; sourceTree = "<group>"; };
+		680218FF19C5EFCF0083213F /* SCProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCProjectileNode.h; sourceTree = "<group>"; };
+		6802190019C5EFCF0083213F /* SCProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCProjectileNode.m; sourceTree = "<group>"; };
+		6877D52819C9A5ED007FDB22 /* SCSpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSpaceDogNode.h; sourceTree = "<group>"; };
+		6877D52919C9A5ED007FDB22 /* SCSpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSpaceDogNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,13 +137,23 @@
 			isa = PBXGroup;
 			children = (
 				680218C319C3CD290083213F /* SCAppDelegate.h */,
+				680218F719C477170083213F /* Sprites.atlas */,
 				680218C419C3CD290083213F /* SCAppDelegate.m */,
+				680218F119C46EFB0083213F /* SCTitleScene.h */,
+				680218F219C46EFB0083213F /* SCTitleScene.m */,
+				680218F419C471E00083213F /* SCGamePlayScene.h */,
+				680218F519C471E00083213F /* SCGamePlayScene.m */,
+				680218F919C47F2A0083213F /* SCMachineNode.h */,
+				680218FA19C47F2A0083213F /* SCMachineNode.m */,
+				680218FC19C4889A0083213F /* SCSpaceCatNode.h */,
+				680218FD19C4889A0083213F /* SCSpaceCatNode.m */,
+				680218FF19C5EFCF0083213F /* SCProjectileNode.h */,
+				6802190019C5EFCF0083213F /* SCProjectileNode.m */,
+				6877D52819C9A5ED007FDB22 /* SCSpaceDogNode.h */,
+				6877D52919C9A5ED007FDB22 /* SCSpaceDogNode.m */,
 				680218C619C3CD290083213F /* Main.storyboard */,
 				680218C919C3CD290083213F /* SCViewController.h */,
 				680218CA19C3CD290083213F /* SCViewController.m */,
-				680218CC19C3CD290083213F /* SCMyScene.h */,
-				680218CD19C3CD290083213F /* SCMyScene.m */,
-				680218CF19C3CD290083213F /* Spaceship.png */,
 				680218D119C3CD290083213F /* Images.xcassets */,
 				680218BB19C3CD290083213F /* Supporting Files */,
 			);
@@ -243,7 +268,7 @@
 			files = (
 				680218BF19C3CD290083213F /* InfoPlist.strings in Resources */,
 				680218D219C3CD290083213F /* Images.xcassets in Resources */,
-				680218D019C3CD290083213F /* Spaceship.png in Resources */,
+				680218F819C477170083213F /* Sprites.atlas in Resources */,
 				680218C819C3CD290083213F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680218CE19C3CD290083213F /* SCMyScene.m in Sources */,
+				680218F319C46EFB0083213F /* SCTitleScene.m in Sources */,
+				680218FE19C4889A0083213F /* SCSpaceCatNode.m in Sources */,
+				6802190119C5EFCF0083213F /* SCProjectileNode.m in Sources */,
 				680218C519C3CD290083213F /* SCAppDelegate.m in Sources */,
 				680218CB19C3CD290083213F /* SCViewController.m in Sources */,
+				680218F619C471E00083213F /* SCGamePlayScene.m in Sources */,
+				6877D52A19C9A5ED007FDB22 /* SCSpaceDogNode.m in Sources */,
 				680218C119C3CD290083213F /* main.m in Sources */,
+				680218FB19C47F2A0083213F /* SCMachineNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +503,7 @@
 				680218EA19C3CD290083213F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680218EB19C3CD290083213F /* Build configuration list for PBXNativeTarget "SpaceCatTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +512,7 @@
 				680218ED19C3CD290083213F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
